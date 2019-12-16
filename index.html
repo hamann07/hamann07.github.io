@@ -22,6 +22,7 @@
     </head>
     <body>
             <script>
+                function myFunction() {
                     window.dataLayer = window.dataLayer || [];
                     window.dataLayer.push({
                         'event':'Component',
@@ -31,11 +32,13 @@
                         'value': 'CMP1', 
                         'userData': 'Carlos'
                     });
+                }
             </script>
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NG7DF4J"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->   
         PRUEBA 
+        <button onclick="myFunction()">Click me</button>
     </body>
 </html>
